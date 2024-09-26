@@ -37,6 +37,8 @@ def calculate():
 
         choice = input(f"Type 'y' to continue calculating with {prev_result}, or type 'n' to start a new calculation: ")
 
+        # If statement to continue the loop w the previous result as a num1 variable
+        # To keep the prev result as num1 we set the "num1" variable outside the while loop
         if choice == 'y': 
             num1 = prev_result
             continue
